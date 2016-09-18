@@ -1,0 +1,23 @@
+.name {
+    margin-bottom: -10px;
+    margin-top: -10px;
+}
+
+#logo {
+    height: 130px;
+    margin-left: 20px;
+}
+
+@media (max-width: 600px) {
+    #logo {
+        height: 100px;
+        margin-top: 7px;
+    }
+}
+
+@media (max-width: 410px) {
+    .message {
+        font-size: 10px;
+    }
+}
+

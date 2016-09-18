@@ -2,9 +2,189 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>MITS ACM Student Chapter</title>
+    <script type="text/javascript" src="js/pace.min.js"></script>
+    <link rel="stylesheet" href="css/pace.css">
+    <!--Import Google font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link rel="stylesheet" type="text/css" href="node_modules/materialize-css/dist/css/materialize.min.css" media="screen,projection">
+    <!--Let browsers know that website is optimised for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="css/team.css">
+
+    <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.7";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+    <link rel="stylesheet" href="bower_components/material-scrolltop/src/material-scrolltop.css">
 </head>
 <body>
-$END$
+
+    <!--Preloader starts here-->
+
+    <div id="loading-screen">
+        <div id="loading-screen-container">
+            <div id="loading-spinner"></div>
+        </div>
+    </div>
+
+    <!--Preloader ends here-->
+
+    <div id="fb-root"></div>
+
+    <!--Navbar starts here-->
+
+    <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper light-blue accent-4">
+                <a href="#" class="brand-logo"><img src="images/logo1.png" alt="" id="logo"></a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="team.html">Team</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <!--Navbar ends here-->
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col l4 offset-l4">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="images/team/faculty_sponsor.jpg" alt="">
+                    </div>
+                    <div class="card-content">
+                        <h5 class="name">Neha Bhardwaj</h5><br>
+                        <p>Faculty Sponsor <br> Assistance Professor <br> Department of CSE & IT <br> MITS, Gwalior</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="col l4">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="images/team/chair.jpg" alt="">
+                    </div>
+                    <div class="card-content">
+                        <h5 class="name">Anshul Harode</h5><br>
+                        <p>Chair <br> Final Year <br> Computer Science <br> MITS Gwalior</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col l4">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="images/team/web_manager.png" alt="">
+                    </div>
+                    <div class="card-content">
+                        <h5 class="name">Swapnil Singh</h5><br>
+                        <p>Web Manager <br> Final Year <br> Computer Science <br> MITS Gwalior</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col l4">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="images/team/vice_chair.jpg" alt="">
+                    </div>
+                    <div class="card-content">
+                        <h5 class="name">Divya Chandron</h5><br>
+                        <p>Vice Chair <br> Final Year <br> Information Technology <br> MITS Gwalior</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row">
+
+            <div class="col l4">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="images/team/tech_1.png" alt="">
+                    </div>
+                    <div class="card-content">
+                        <h5 class="name">Harsh Bhatia</h5><br>
+                        <p>Technical Team <br> Final Year <br> Computer Science <br> MITS Gwalior</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col l4">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="images/team/treasurer.jpg" alt="">
+                    </div>
+                    <div class="card-content">
+                        <h5 class="name">Lovesh Gupta</h5><br>
+                        <p>Treasurer <br> Final Year <br> Computer Science <br> MITS Gwalior</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col l4">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="images/team/tech_2.jpg" alt="">
+                    </div>
+                    <div class="card-content">
+                        <h5 class="name">Alakshendra Yadav</h5><br>
+                        <p>Technical Team <br> Final Year <br> Computer Science <br> MITS Gwalior</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <footer class="page-footer light-blue accent-4">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <div class="fb-page" data-href="https://www.facebook.com/MITSACMStudentChapter/" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/MITSACMStudentChapter/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/MITSACMStudentChapter/">MITS ACM Student Chapter</a></blockquote></div>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Links</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="#!">Home</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Team</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Contact Us</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Login</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2016-17 MITS ACM Student Chapter
+                <a class="grey-text text-lighten-4 right" href="http://swapnilsingh.in" target="_blank">Developed by Swapnil Singh</a>
+            </div>
+        </div>
+    </footer>
+
+    <button class="material-scrolltop" type="button"></button>
+
+    <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="node_modules/materialize-css/dist/js/materialize.min.js"></script>
+    <script type="text/javascript" src="bower_components/material-scrolltop/src/material-scrolltop.js"></script>
+    <script>
+        $('body').materialScrollTop();
+    </script>
 </body>
 </html>

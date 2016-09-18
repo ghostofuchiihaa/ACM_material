@@ -3,34 +3,176 @@
 <head>
     <meta charset="UTF-8">
     <title>MITS ACM Student Chapter</title>
+    <script type="text/javascript" src="js/pace.min.js"></script>
+    <link rel="stylesheet" href="css/pace.css">
     <!--Import Google font-->
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import materialize.css-->
     <link rel="stylesheet" type="text/css" href="node_modules/materialize-css/dist/css/materialize.min.css" media="screen,projection">
     <!--Let browsers know that website is optimised for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="node_modules/owl-carousel-2/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="node_modules/owl-carousel-2/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.7";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+    <link rel="stylesheet" href="bower_components/material-scrolltop/src/material-scrolltop.css">
 </head>
 <body>
 
-
+    <div id="fb-root"></div>
     <!--Navbar starts here-->
 
-    <nav>
-        <div class="nav-wrapper">
-            <a href="#" class="brand-logo">ACM</a>
-            <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a href="#">ACM</a></li>
-                <li><a href="#">ACM</a></li>
-                <li><a href="#">ACM</a></li>
-            </ul>
-        </div>
-    </nav>
+    <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper light-blue accent-4">
+                <a href="#" class="brand-logo"><img src="images/logo1.png" alt="" id="logo"></a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="team.html">Team</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
 
     <!--Navbar ends here-->
 
+    <div class="container">
+
+        <div id="owl-carousel" class="owl-carousel hoverable">
+            <div><img src="images/4.jpg" alt=""></div>
+            <div><img src="images/5.jpg" alt=""></div>
+            <div><img src="images/6.jpg" alt=""></div>
+            <div><img src="images/2.jpg" alt=""></div>
+            <div><img src="images/3.jpg" alt=""></div>
+        </div>
+
+        <hr class="horizontal_line_carousel">
+
+        <div class="row">
+            <div class="col s12">
+                <div class="card hoverable">
+                    <div class="card-title center" id="notice_title">Notice Board</div>
+                    <hr class="horizontal_notice_line">
+                    <div class="card-content">
+                        The New event is going to happen here Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        A accusantium autem delectus dignissimos dolor fugit, harum inventore maiores nulla officiis quos
+                        rem reprehenderit sunt ut voluptates! Ad architecto hic perferendis?
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ad adipisci alias architecto
+                        aspernatur consequatur cupiditate ea earum impedit magnam natus officiis vitae, voluptas voluptates
+                        voluptatum? Alias dolores est nobis?
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col l6">
+                <div class="card hoverable">
+                    <div class="card-title center-align">About ACM</div>
+                    <hr class="horizontal_line">
+                    <div class="card-content">
+                        ACM brings together computing educators, researchers, and professionals to inspire dialogue, share resources, and address the field's challenges. As the world’s largest computing society, ACM strengthens the profession's collective voice through strong leadership, promotion of the highest standards, and recognition of technical excellence. ACM supports the professional growth of its members by providing opportunities for life‐long learning, career development, and professional networking.
+                        Founded at the dawn of the computer age, ACM’s reach extends to every part of the globe, with more than half of its 100,000 members residing outside the U.S.  Its growing membership has led to Councils in Europe, India, and China, fostering networking opportunities that strengthen ties within and across countries and technical communities.  Their actions enhance ACM’s ability to raise awareness of computing’s important technical, educational, and social issues around the world.
+                    </div>
+                </div>
+            </div>
+            <div class="col l6">
+                <div class="card hoverable">
+                    <div class="card-title center-align">About ACM MITS Student Chapter</div>
+                    <hr class="horizontal_line">
+                    <div class="card-content">
+                        MITS ACM Students Chapter was established in July 15,2014 for the students, by the department of CSE&IT. Carrying “CREATIVITY & SHEER TENACITY” in its blood, this chapter aims at churning out the hidden talents from the crowd in the field of computing, in an era where computers and computing in its any form are an integral part of life. The chapter is committed in generating, disseminating, and preserving knowledge, and to working with others to bring this knowledge to bear on the world's great challenges. MITS ACM Student Chapter is dedicated to provide students with an educational environment that combines rigorous academic study and the excitement of discovery with the support and intellectual stimulation of a diverse campus community. We seek to develop in each member of the chapter and the collaborated non-members with the ability and passion to work wisely, creatively, and effectively in field of computer science. The chapter aims in : "BRINGING WINDS OF CHANGE"
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="col l6">
+                <div class="card horizontal">
+                    <div class="card-image">
+                        <img src="images/message/dir.jpg" alt="">
+                    </div>
+                    <div class="card-stacked">
+                        <div class="card-content">
+                            <p class="message">
+                                As Bill Gates once said "Software is a great combination between artistry and engineering."
+                                We aim to provide these artists with a platform and put efforts to bring out this hidden art
+                                in our students.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-panel">
+                    <h6>Dr. R.K. Pandit, Director, MITS Gwalior</h6>
+                </div>
+            </div>
+
+            <div class="col l6">
+                <div class="card horizontal">
+                    <div class="card-image">
+                        <img src="images/message/rkg.jpg" alt="">
+                    </div>
+                    <div class="card-stacked">
+                        <div class="card-content">
+                            <p class="message">
+                                Hardware and software are not yet matured, they will revolutionize the way we learn, a lot of has
+                                to be explored in the field of computer science and we put our sincere endeavors in preparing our students
+                                for the same.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-panel">
+                    <h6>Dr. R.K. Gupta, HOD Dept. of CSE & IT, MITS Gwalior</h6>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <footer class="page-footer light-blue accent-4">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <div class="fb-page" data-href="https://www.facebook.com/MITSACMStudentChapter/" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/MITSACMStudentChapter/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/MITSACMStudentChapter/">MITS ACM Student Chapter</a></blockquote></div>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Links</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="#!">Home</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Team</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Contact Us</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Login</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2016-17 MITS ACM Student Chapter
+                <a class="grey-text text-lighten-4 right" href="http://swapnilsingh.in" target="_blank">Developed by Swapnil Singh</a>
+            </div>
+        </div>
+    </footer>
+
+    <button class="material-scrolltop" type="button"></button>
 
     <!--Import jQuery before materialize.js-->
     <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
     <script type="text/javascript" src="node_modules/materialize-css/dist/js/materialize.min.js"></script>
+    <script type="text/javascript" src="node_modules/owl-carousel-2/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="bower_components/material-scrolltop/src/material-scrolltop.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
 </body>
 </html>
