@@ -8,6 +8,17 @@
     <link rel="stylesheet" href="../css/pace.css">
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../node_modules/materialize-css/dist/css/materialize.min.css" media="screen,projection">
+    <style>
+        #badge {
+            line-height: 20px;
+            margin-top: 14px;
+        }
+
+        #message_badge {
+            line-height: 20px;
+            margin-top: 14px;
+        }
+    </style>
 </head>
 <body>
 
@@ -26,14 +37,19 @@
     <ul id="slide-out" class="side-nav fixed">
         <li>
             <div class="userView">
-                <img src="../images/admin/background.png" alt="" class="background">
+                <img src="../images/admin/background.jpg" alt="" class="background">
                 <a href="#!user"><img class="circle" src="../images/team/web_manager.png"></a>
                 <a href="#!name"><span class="white-text name">Swapnil Singh</span></a>
                 <a href="#!email"><span class="white-text email">swappp7singh@gmail.com</span></a>
             </div>
         </li>
-        <li><a href="#!"><i class="material-icons">description</i>Change Notice</a></li>
-        <li><a href="#!"><i class="material-icons">comment</i>Messages</a></li>
+        <li><a class="waves-effect" href="#!"><i class="material-icons">equalizer</i>Monitoring</a></li>
+        <li><a class="waves-effect" href="#!"><i class="material-icons">description</i>Change Notice</a></li>
+        <li><a class="waves-effect" href="#!"><i class="material-icons">verified_user</i>Verify Notice<span id="badge" class="new badge light-blue accent-4"></span></a></li>
+        <li><a class="waves-effect" href="#!"><i class="material-icons">comment</i>Messages<span class="badge red white-text" id="message_badge">24</span></a></li>
+        <li><a class="waves-effect" href="#!"><i class="material-icons">supervisor_account</i>Create User</a></li>
+        <li><a class="waves-effect" href="#!"><i class="material-icons">delete</i>Remove User</a></li>
+        <li><a class="waves-effect" href="#!"><i class="material-icons">lock</i>Change Password</a></li>
         <!--<li><a href="#!">Second Link</a></li>-->
         <!--<li><div class="divider"></div></li>-->
         <!--<li><a class="subheader">Subheader</a></li>-->
